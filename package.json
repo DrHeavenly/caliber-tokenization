@@ -1,0 +1,16 @@
+{
+  "name": "caliber-tokenization",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Diameter by Caliber real estate tokenization platform wireframes.",
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/check.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "npm run build && node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}
